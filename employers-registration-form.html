@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GetLinked.ai | Employer's Form </title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/employer-reg.css">
+    <script src="https://kit.fontawesome.com/86f0e06bde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container cont-employer-reg">
+        <!-- header to be fixed here right above the form section and a margin bottom of 100px-->
+        <header>
+            <nav id="nav-bar">
+                    <div class="menu-items">
+                        <a href="index.html">Home </a>
+                        <a href="find-job.html">Find Job</a>
+                        <a href="#">Employers</a>
+                        <a href="#">Candidates</a>
+                        <a href="#">Pricing Plan</a>
+                        <a href="#">Customers' Support</a>
+                    </div>
+                    <div class="site-lang">
+                        <img src="Images/US flag.png" alt="Nation Flag">
+                        <select id="lang" name="lang">
+                                <option value="1">English</option>
+                                <option value="2">Arabic</option>
+                                <option value="3">French</option>
+                                <option value="4">Spanish</option>
+                                <option value="5">Deutsch</option>
+                                <option value="6">Others</option>
+                        </select>
+                    </div>
+            </nav>
+    </header>
+        
+        <div class="register">
+            <div class="register-item reg-form">
+                <div class="user">
+                    <div></div>
+                    <div class="member"><a href="">Already a Member? <i class="fa-solid fa-user"></i></a></div> 
+                </div>
+                <div class="info">
+                    <div class="info-head">
+                        <h3>Input your information</h3>
+                    </div>
+                    <div class="info-terms">
+                        <p>We need you to help us with some basic information for your account creation. Here are our <a href="">terms and conditions.</a></p>
+                    </div>
+                </div>
+                <form action="" method="get">
+                    <div class="fullname">
+                        <div>
+                            <label for="firstname">Firstname</label>
+                            <input type="text" id="firstname" name="firstname">
+                        </div>
+                        <div>
+                            <label for="lastname">Lastname</label>
+                            <input type="text" id="lastname" name="lastname">
+                        </div>
+                    </div>
+                    <div class="company-info">
+                        <div>
+                            <label for="company-name">Company</label>
+                            <input type="text" id="company-name" name="company-name">
+                        </div>
+                        <div>
+                            <label for="work-mail">Work E-mail</label>
+                            <input type="email" name="work-mail" id="work-mail">
+                        </div>
+                        </div>
+                    <div class="employee-data">
+                        <div>
+                            <label for="employee-count">Number of Employee</label>
+                            <input type="number" name="employee-count" id="employee-count">
+                        </div>
+                        <div>
+                            <label for="telephone">Phone Number</label>
+                            <input type="tel" name="telephone" id="telephone">
+                        </div>
+                        </div>
+                    <div class="password">
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div>
+                            <label for="password-conf">Confirm Password</label>
+                            <input type="password" name="password-conf" id="password-conf">
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <label for="terms"> <input type="checkbox" name="terms" id="terms" class="inline"> I agree with the <a class="inline-a">terms and conditions.</a></label>
+                        <button class="button-check" type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+            <div class="register-item reg-item">
+                <img src="Images/Home Desk.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>

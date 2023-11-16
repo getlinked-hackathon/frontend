@@ -1,0 +1,146 @@
+.cont-job-seek {
+    padding-top: 66px;
+    width: 1528px;
+    margin: 0 auto;
+}
+.banner {
+    height: 139px;
+    background-color: #F4F5F7;
+    padding: 50px 0;
+    border-radius: 4px;
+    margin-bottom: 43px;
+}
+.banner > h2 {
+    color: #333;
+    font-family: 'Inter regular';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.frame-761, .frame-762 {
+    display: grid;
+    grid-template-columns: auto 881px;
+    height: 798px;
+    border: 1px solid;
+    margin-bottom: 18px;
+}
+.personal-info, .contact-details { 
+    border-bottom: 1px solid #F1EFEF;
+    border-left: 1px solid #F1EFEF;
+    padding-bottom: 41px;
+    padding: 26px 30px;
+}
+.user-guide {
+    margin-top: 77px;
+    padding-left: 63px;
+}
+.user-guide > p {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.para-biu {
+    color: #606060;
+}
+.user-b-info {
+    margin-top: 51px;
+}
+.jb-fullname, .password-create {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 47px;
+}
+label {
+    color: #000;
+    font-family: 'inter regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+input {
+    width: 386px;
+    height: 48px;
+    display: block;
+    padding: 12px 16px 12px 12px;
+    margin-bottom: 26.5px;
+    border-radius: 4px;
+    border: 1px solid #D6D6D6;
+    background: #FFF;
+}
+.other-info, .gender-location {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+    padding-bottom: 24px;
+    padding: 24px 32px;
+    border-left: 1px solid #F1EFEF;
+}
+.label-alone {
+    padding-left: 32px;
+    border-left: 1px solid #F1EFEF;
+    padding-top: 24px;
+    display: block;
+}
+.gender-location {
+    border-bottom: 1px solid #F1EFEF;
+    padding-bottom: 47px;
+}
+.other-info > select, .gender > select, .nationality > select, .location > select {
+    display: block;
+    width: 256.33px;
+    height: 48px;
+    padding: 14.5px 12px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid #D6D6D6;
+    background-color: #FFF;
+}
+.contact {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.contact-details {
+    padding-bottom: 68px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* Stlye for the second part of the form */
+.work-detail {
+    margin-top: 51px;
+}
+.work-info {
+    padding: 17px 31px 30px 31px;
+    border-bottom: 1px solid #F1EFEF;
+    border-left: 1px solid #F1EFEF;
+}
+.work-status, .work-exp {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 47px;
+}
+.qualification {
+    margin-bottom: 23px;
+}
+.current-job {
+    margin-bottom: 30px;
+}
+.qualification > select, .current-job > select, .work-level > select, .work-avail > select {
+    display: block;
+    width: 386px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 14.5px 12px;
+}
+.file-sect {
+    border: 1px solid;
+}
+input[type=file] {
+    width: 137px;
+    height: 51px;
+}
