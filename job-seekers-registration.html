@@ -10,6 +10,29 @@
 </head>
 <body>
     <div class="container cont-job-seek">
+        <header>
+            <nav id="nav-bar">
+                <div class="menu-items">
+                        <a href="index.html">Home </a>
+                        <a href="find-job.html">Find Job</a>
+                        <a href="#">Employers</a>
+                        <a href="#">Candidates</a>
+                        <a href="#">Pricing Plan</a>
+                        <a href="#">Customers' Support</a>
+                </div>
+                <div class="site-lang">
+                    <img src="Images/US flag.png" alt="Nation Flag">
+                    <select id="lang" name="lang">
+                            <option value="1">English</option>
+                            <option value="2">Arabic</option>
+                            <option value="3">French</option>
+                            <option value="4">Spanish</option>
+                            <option value="5">Deutsch</option>
+                            <option value="6">Others</option>
+                    </select>
+                </div>
+        </nav>
+        </header>
         <div class="banner">
             <h2>Create Account</h2>
         </div>
@@ -219,12 +242,15 @@
                         </div>
                     </div>
                     <div class="file-sect">
-                        <div class="file-upload">
-                            <input type="file" name="upload-a-file" id="upload-a-file">
-                        </div>
+                        <input type="file" name="upload-a-file" id="upload-a-file" accept="application/msword, application/pdf">
                         <p>Optionally upload a CV no larger than 10MB for file types .pdf .doc .docx .rtf</p>
                         <p>Please note: You will need to upload a CV to apply for jobs, however you can skip the CV upload on sign up.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eaque quas sequi perferendis. Inventore, aspernatur maxime veritatis sed consequatur laudantium?</p>
+                    </div>
+                    <div class="privacy-policy">
+                        <p>By clicking "Create Your Account", you agree to our <a href="">Terms & Conditions and Privacy Policy</a></p>
+                        <label class="label-privacy" for="job-alert"><input type="checkbox" name="job-alert" id="job-alert"> Sign me up for email and browser Job alerts.</label>
+                        <label class="label-privacy" for="job-tips"><input type="checkbox" name="job-tips" id="job-tips">I would like to receive top jobs and career tips</label>
+                        <button class="button-privacy" type="submit">Create An Account</button>
                     </div>
                 </form>
             </div>
