@@ -1,0 +1,185 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <title>Job Creation</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create a Job</h1>
+
+      <form>
+        <div class="row">
+          <div class="col-6">
+            <label
+              for="company-name"
+              id="company-name">
+              Company Name
+            </label>
+            <br />
+
+            <input
+              type="text"
+              class="form-control"
+              id="company-name"
+              placeholder="Name" />
+          </div>
+          <div class="col-6">
+            <label
+              for="company-website"
+              id="company-website">
+              Company Website
+            </label>
+            <br />
+            <input
+              type="text"
+              class="form-control"
+              id="company-website"
+              placeholder="Website" />
+          </div>
+          <div class="col-12">
+            <label for="jobTitle"> Job Title </label> <br />
+            <input
+              type="text"
+              class="form-control"
+              id="job-title"
+              placeholder="Title" />
+          </div>
+          <div class="col-6">
+            <label for="job-category">Job Category</label>
+            <br />
+            <select
+              class="form-group"
+              id="job-category">
+              <option
+                value="Technology"
+                selected>
+                Technology
+              </option>
+              <option>Building and Construction</option>
+              <option>Real Estate</option>
+              <option>Beauty and Cosmetics</option>
+              <option>Fashion</option>
+              <option>Music and Entertainment</option>
+              <option>Others</option>
+            </select>
+          </div>
+
+          <div class="col-6">
+            <label for="job-type">Job Type</label><br />
+            <select
+              name="job-type"
+              class="form-group"
+              id="job-type">
+              <option
+                value="Full Time"
+                selected>
+                Full Time
+              </option>
+              <option>Part Time</option>
+              <option>Remote</option>
+              <option>On-site</option>
+              <option>Hybrid</option>
+              <option></option>
+            </select>
+          </div>
+          <div class="col-6">
+            <label
+              for="jobLocation"
+              id="job-location">
+              Job Location
+            </label>
+            <br />
+            <input
+              type="text"
+              class="form-control"
+              id="job-location"
+              placeholder="Location" />
+          </div>
+          <div class="col-6">
+            <label
+              for="salaryRange"
+              id="salary-range">
+              Salary Range
+            </label>
+            <br />
+            <input
+              type="text"
+              class="form-control"
+              id="salary-range"
+              placeholder="salary Range" />
+          </div>
+          <div class="col-6">
+            <label
+              for="jobExperience"
+              id="job-experience">
+              Experience
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              id="job-experience"
+              placeholder="Experience" />
+          </div>
+          <div class="col-6">
+            <label
+              for="qualification"
+              id="qualification">
+              Qualification
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              id="qualification"
+              placeholder="Qualification" />
+          </div>
+          <div class="col-12">
+            <label for="applicationDeadline"> Job Application Deadline </label>
+            <input
+              type="text"
+              class="form-control"
+              id="application-deadline"
+              placeholder="Application Deadline" />
+          </div>
+          <div class="col-12">
+            <label for="applicationUrl"> Application link </label>
+            <input
+              type="text"
+              class="form-control"
+              id="applicationUrl"
+              placeholder="Url" />
+          </div>
+          <div class="col-12">
+            <label for="job-description"> Job Description </label><br />
+            <textarea
+              name=""
+              id="job-description"
+              cols="148"
+              rows="6"></textarea>
+          </div>
+          <div class="job-posting">
+            <input
+              type="button"
+              class="btn btn-primary"
+              id="button"
+              value="Post Job"
+              width="300" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

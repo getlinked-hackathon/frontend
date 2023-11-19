@@ -1,0 +1,31 @@
+/** @format */
+.container {
+  border: 1px solid rgb(144, 137, 144);
+  padding: 5px 20px;
+}
+h1 {
+  margin-top: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 800px;
+  font-size: 60px;
+  background-color: rgba(146, 144, 144, 0.752);
+  border-radius: 5px;
+}
+
+.form-control {
+  font-size: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.form-group {
+  padding: 15px 145px;
+}
+#job-type {
+  padding-right: 300px;
+}
+.job-posting {
+  margin-left: 1000px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
