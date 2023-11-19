@@ -131,4 +131,5 @@ input[type=checkbox] {
     border-radius: 4px;
     border: 1px solid #E4E4E4;
     margin-left: 245px;
+    cursor: pointer;
 }

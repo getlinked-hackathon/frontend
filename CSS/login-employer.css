@@ -107,7 +107,7 @@ input[type="checkbox"] {
     border: 1px solid #D6D6D6;
     width: 180px;
     height: 55px;
-    padding: 5px;
+    padding: 5px 45px;
     border-radius: 8px;
 }
 .fa-brands {
@@ -117,9 +117,6 @@ input[type="checkbox"] {
     margin: 0 auto;
     text-align: center;
     cursor: pointer;
-}
-.social {
-    align-items: center;
 }
 .social-para {
     text-align: center;
