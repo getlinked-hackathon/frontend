@@ -14,11 +14,37 @@
       crossorigin="anonymous" />
     <link
       rel="stylesheet"
-      href="style.css" />
+      href="CSS/style.css" />
+      <link rel="stylesheet" href="CSS/index.css">
     <title>Job Creation</title>
   </head>
   <body>
     <div class="container">
+      <!--the navigation bar of the page by Yeancah-->
+
+      <header>
+        <nav id="nav-bar">
+                <div class="menu-items">
+                        <a href="index.html">Home </a>
+                        <a href="find-job.html">Find Job</a>
+                        <a href="login-employer.html">Employers</a>
+                        <a href="#">Candidates</a>
+                        <a href="#">Pricing Plan</a>
+                        <a href="#">Customers' Support</a>
+                </div>
+                <div class="site-lang">
+                    <img src="Images/US flag.png" alt="Nation Flag">
+                    <select id="lang" name="lang">
+                            <option value="1">English</option>
+                            <option value="2">Arabic</option>
+                            <option value="3">French</option>
+                            <option value="4">Spanish</option>
+                            <option value="5">Deutsch</option>
+                            <option value="6">Others</option>
+                    </select>
+                </div>
+        </nav>
+      </header>
       <h1>Create a Job</h1>
 
       <form>
@@ -167,7 +193,7 @@
             <textarea
               name=""
               id="job-description"
-              cols="148"
+              cols="122"
               rows="6"></textarea>
           </div>
           <div class="job-posting">
