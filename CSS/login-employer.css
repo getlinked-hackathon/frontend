@@ -113,8 +113,13 @@ input[type="checkbox"] {
 .fa-brands {
     display: block;
     font-size: 45px;
+    width: 40px;
+    margin: 0 auto;
     text-align: center;
     cursor: pointer;
+}
+.social {
+    align-items: center;
 }
 .social-para {
     text-align: center;
