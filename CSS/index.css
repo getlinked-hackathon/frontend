@@ -692,6 +692,53 @@ main {
     grid-template-columns: 312px 920px;
     gap: 90px;
     padding-bottom: 80px;
+    padding-left: 20px;
+}
+.fi-item {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.fi-item > i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.fi-item > h3 {
+    color: var(--gray-white, #FFF);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 166.667% */
+    height: 40px;
+}
+.fi-para1 {
+    color: var(--gray-600, #5E6670);
+    font-family: 'Inter regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    margin-bottom: 12px;
+}
+.para1-span {
+    color: var(--gray-white, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+.fi-para2 {
+    color: var(--gray-500, #767F8C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
 }
 .fi-second {
     display: grid;
