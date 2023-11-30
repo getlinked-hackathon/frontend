@@ -10,3 +10,13 @@
     font-weight: 500;
     line-height: 48px;
 }
+.job-frame > h5, .job-frame > a > h5 {
+    font-family: 'Inter regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.job-frame > a {
+    text-decoration: dotted;
+}
