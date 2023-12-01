@@ -1,0 +1,51 @@
+.job {
+    width: 120px;
+    height: 50px;
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: 1px solid #0A65CC;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    background-color: #0A65CC;
+    cursor: pointer;
+}
+.log-in-button {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.log-in-button > img {
+    width: 48px;
+    height: 48px;
+    border: 50%;
+    vertical-align: middle;
+}
+.profile-image {
+    height: 300px;
+    padding: 10px;
+    background-color: #f1f2f4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px;
+}
+.profile-image > img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+}
+.profile-image > h2 {
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    text-align: center;
+    color: var(--gray-900, #18191C);
+    border: 1px solid;
+}
